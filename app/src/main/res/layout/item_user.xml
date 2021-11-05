@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    app:cardCornerRadius="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp">
+
+    <com.ramotion.foldingcell.FoldingCell
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/folding_cell"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:backSideColor="@color/purple_200"
+        app:cameraHeight="30"
+        app:animationDuration="1000">
+
+        <FrameLayout
+            android:id="@+id/cell_content_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_green_dark"
+            android:visibility="gone">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/img_avt_detail"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@mipmap/ic_launcher"
+                    android:scaleType="centerCrop"
+                    android:layout_marginBottom="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Conten View"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:textColor="@color/white"
+                    android:id="@+id/tv_full_name"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Conten View"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:id="@+id/tv_birthday"/>
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/cell_title_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_blue_dark"
+                android:gravity="center"
+                android:padding="20dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/img_avt"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@mipmap/ic_launcher"
+                    android:scaleType="centerCrop"/>
+
+            </LinearLayout>
+        </FrameLayout>
+
+    </com.ramotion.foldingcell.FoldingCell>
+
+</androidx.cardview.widget.CardView>

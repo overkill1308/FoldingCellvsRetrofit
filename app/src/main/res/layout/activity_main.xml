@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rc_view"
+        android:layout_marginBottom="5dp"/>
+    
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="vertical"-->
+<!--        android:gravity="center_horizontal"-->
+<!--        android:id="@+id/ln_btn"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginLeft="10dp"-->
+<!--        android:layout_marginRight="10dp">-->
+<!--        -->
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:layout_marginBottom="10dp">-->
+<!--            -->
+<!--            <androidx.appcompat.widget.AppCompatButton-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:layout_marginRight="10dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:text="Left to right"-->
+<!--                android:id="@+id/btn_left_to_right"-->
+<!--                android:background="@drawable/button_custom"-->
+<!--                android:textColor="@color/white"/>-->
+
+<!--            <androidx.appcompat.widget.AppCompatButton-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:layout_marginLeft="10dp"-->
+<!--                android:text="Left to right"-->
+<!--                android:id="@+id/btn_right_to_left"-->
+<!--                android:background="@drawable/button_custom"-->
+<!--                android:textColor="@color/white"/>-->
+<!--            -->
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <androidx.appcompat.widget.AppCompatButton-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:layout_marginRight="10dp"-->
+<!--                android:text="Top to bottom"-->
+<!--                android:id="@+id/btn_top_to_bottom"-->
+<!--                android:background="@drawable/button_custom"-->
+<!--                android:textColor="@color/white"/>-->
+
+<!--            <androidx.appcompat.widget.AppCompatButton-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:layout_marginLeft="10dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:text="Bottom to top"-->
+<!--                android:id="@+id/btn_bottom_to_top"-->
+<!--                android:background="@drawable/button_custom"-->
+<!--                android:textColor="@color/white"/>-->
+
+<!--        </LinearLayout>-->
+<!--        -->
+<!--    </LinearLayout>-->
+
+</RelativeLayout>
